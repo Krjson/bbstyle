@@ -38,6 +38,8 @@ Website: http://themegret.com
 
 
 /* --------------- Reset Styles --------------- */
+
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
@@ -65,7 +67,6 @@ input:focus, textarea:focus {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
-	text-transform:capitalize;
 	letter-spacing: 1px;
 }
 
@@ -321,9 +322,9 @@ color:#ccc !important;
 
 .main__disc{
 	color: #fff;
-	max-width: 417px;
+	/* margin: 9px; */max-width: 417px;
 	text-align: center;
-}
+padding: 12px;}
 
 .nav {
 	margin-top: -65px;
@@ -390,8 +391,8 @@ left: calc(50% - 110px);
 }
 
 .baraja-container {
-	width: 250px;
-	height: 400px;
+	width: 311px;
+	height: 661px;
 }
 
 .baraja-container .single-feature {
